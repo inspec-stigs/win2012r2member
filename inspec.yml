@@ -1,0 +1,6 @@
+name: win_stig
+title: InSpec Profile
+maintainer: Peter Burkholder
+license: CC0 1.0 Universal
+summary: An InSpec Compliance Profile Windows 2012rs
+version: 0.1.0
