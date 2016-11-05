@@ -33,7 +33,6 @@ Value:  4 (or less)'
 # START_DESCRIBE V-1090
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1090

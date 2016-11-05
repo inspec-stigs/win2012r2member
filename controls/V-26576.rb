@@ -31,7 +31,6 @@ Value: 3'
 # START_DESCRIBE V-26576
   
     describe registry_key({
-      name: 'IPHTTPS_ClientState',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\TCPIP\v6Transition\IPHTTPS\IPHTTPSInterface',
     }) do

@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-3385
   
     describe registry_key({
-      name: 'ObCaseInsensitive',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Session Manager\Kernel',
     }) do

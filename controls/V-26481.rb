@@ -26,7 +26,6 @@ If any accounts or groups are granted the "Create permanent shared objects" user
 # START_DESCRIBE V-26481
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26481

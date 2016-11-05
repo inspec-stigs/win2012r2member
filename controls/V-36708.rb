@@ -33,7 +33,6 @@ If location services are approved for the system by the organization, this may b
 # START_DESCRIBE V-36708
   
     describe registry_key({
-      name: 'DisableLocation',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\LocationAndSensors',
     }) do

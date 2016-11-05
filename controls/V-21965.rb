@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21965
   
     describe registry_key({
-      name: 'SearchOrderConfig',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\DriverSearching',
     }) do

@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-14234
   
     describe registry_key({
-      name: 'FilterAdministratorToken',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

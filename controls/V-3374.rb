@@ -31,7 +31,6 @@ This setting may prevent a system from being joined to a domain if not configure
 # START_DESCRIBE V-3374
   
     describe registry_key({
-      name: 'RequireStrongKey',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Netlogon\Parameters',
     }) do

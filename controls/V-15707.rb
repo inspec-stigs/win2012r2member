@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15707
   
     describe registry_key({
-      name: 'LoggingEnabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

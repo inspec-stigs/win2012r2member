@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21970
   
     describe registry_key({
-      name: 'ScenarioExecutionEnabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\WDI\{9c5a40da-b965-4fc3-8781-88dd50a6299d}',
     }) do

@@ -33,7 +33,6 @@ Value: 90 (or less)'
 # START_DESCRIBE V-4108
   
     describe registry_key({
-      name: 'WarningLevel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Eventlog\Security',
     }) do

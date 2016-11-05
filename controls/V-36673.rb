@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-36673
   
     describe registry_key({
-      name: 'EnableIPAutoConfigurationLimits',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Tcpip\Parameters',
     }) do

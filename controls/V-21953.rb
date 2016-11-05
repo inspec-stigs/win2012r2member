@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21953
   
     describe registry_key({
-      name: 'AllowOnlineID',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\LSA\pku2u',
     }) do

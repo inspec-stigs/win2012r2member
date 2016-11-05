@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-3470
   
     describe registry_key({
-      name: 'fAllowUnsolicited',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

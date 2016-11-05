@@ -31,7 +31,6 @@ Value: 2'
 # START_DESCRIBE V-4110
   
     describe registry_key({
-      name: 'DisableIPSourceRouting',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Tcpip\Parameters',
     }) do

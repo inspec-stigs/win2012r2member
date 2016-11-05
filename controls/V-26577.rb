@@ -29,7 +29,6 @@ Value: Disabled'
 # START_DESCRIBE V-26577
   
     describe registry_key({
-      name: 'ISATAP_State',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\TCPIP\v6Transition',
     }) do

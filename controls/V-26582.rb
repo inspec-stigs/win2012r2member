@@ -31,7 +31,6 @@ Value: 0x00008000 (32768) (or greater)'
 # START_DESCRIBE V-26582
   
     describe registry_key({
-      name: 'MaxSize',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows\EventLog\System',
     }) do

@@ -27,7 +27,6 @@ This does not apply to server-based applications that have a requirement for .p1
 # START_DESCRIBE V-15823
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-15823

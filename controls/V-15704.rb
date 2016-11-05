@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15704
   
     describe registry_key({
-      name: 'PreventHandwritingErrorReports',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\HandwritingErrorReports',
     }) do

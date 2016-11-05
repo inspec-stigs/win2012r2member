@@ -29,7 +29,6 @@ Object Access -> Removable Storage - Success'
 # START_DESCRIBE V-36668
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36668

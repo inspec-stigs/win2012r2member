@@ -23,7 +23,6 @@ A properly configured HBSS Policy Auditor 5.2 or later File Integrity Monitor (F
 # START_DESCRIBE V-2907
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-2907

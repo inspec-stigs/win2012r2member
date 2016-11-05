@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-14269
   
     describe registry_key({
-      name: 'HideZoneInfoOnProperties',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Attachments',
     }) do

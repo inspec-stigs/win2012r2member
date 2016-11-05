@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-14228
   
     describe registry_key({
-      name: 'AuditBaseObjects',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

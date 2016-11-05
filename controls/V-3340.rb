@@ -31,7 +31,6 @@ Value: (Blank)'
 # START_DESCRIBE V-3340
   
     describe registry_key({
-      name: 'NullSessionShares',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanManServer\Parameters',
     }) do

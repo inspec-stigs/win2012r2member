@@ -32,7 +32,6 @@ If any system administrators has left the organization within the last year and 
 # START_DESCRIBE V-14225
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-14225

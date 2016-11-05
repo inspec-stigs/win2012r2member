@@ -27,7 +27,6 @@ The version numbers and the date of the signature file can generally be checked 
 # START_DESCRIBE V-40175
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40175

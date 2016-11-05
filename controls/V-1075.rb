@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-1075
   
     describe registry_key({
-      name: 'ShutdownWithoutLogon',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

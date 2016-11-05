@@ -23,7 +23,6 @@ Verify users with accounts in the Backup Operators group have a separate user ac
 # START_DESCRIBE V-40198
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40198

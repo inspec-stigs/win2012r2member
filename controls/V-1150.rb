@@ -28,7 +28,6 @@ Note: If an external password filter is in use that enforces all 4 character typ
 # START_DESCRIBE V-1150
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1150

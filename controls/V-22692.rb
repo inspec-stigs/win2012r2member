@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-22692
   
     describe registry_key({
-      name: 'NoAutorun',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer',
     }) do

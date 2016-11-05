@@ -36,7 +36,6 @@ Run "Net user <username>".  This will list the account properties, including "Ac
 # START_DESCRIBE V-57653
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-57653

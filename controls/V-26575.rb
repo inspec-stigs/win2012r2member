@@ -29,7 +29,6 @@ Value: Disabled'
 # START_DESCRIBE V-26575
   
     describe registry_key({
-      name: '6to4_State',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\TCPIP\v6Transition',
     }) do

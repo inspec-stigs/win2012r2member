@@ -31,7 +31,6 @@ Value: 1'
 # START_DESCRIBE V-3479
   
     describe registry_key({
-      name: 'SafeDllSearchMode',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Session Manager',
     }) do

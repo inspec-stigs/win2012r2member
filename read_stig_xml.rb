@@ -1,27 +1,9 @@
 #!/usr/bin/env ruby
 
 # Example:
-#  ./read_stig_xml.rb -i src/xml/U_Windows_2012_and_2012_R2_MS_STIG_V2R5_Manual-xccdf.xml -d win2012r2member/controls
+#  ./read_stig_xml.rb -i assets/U_Windows_2012_and_2012_R2_MS_STIG_V2R5_Manual-xccdf.xml -d ./controls
 require 'nokogiri'
 require 'optparse'
-
-def generate_chef_resource()
-  return <<-CHEF_RESOURCE
-  resource_name ''#{id}'
-
-  action :create do
-    registry_key '#{path}'
-    values [{
-      :name => '#{value_name}
-      :type => :#{value_type}
-      :data => #{value}
-    }]
-    recursive true
-    action :create
-  end
-  end
-  CHEF_RESOURCE
-end
 
 def inspec_check(text:, parse_reg:true, id:nil)
   if parse_reg and text.match(/Registry +Hive: HKEY/) then
@@ -43,7 +25,6 @@ def inspec_check(text:, parse_reg:true, id:nil)
     return <<-CHECKDOC
     describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
     CHECKDOC
   end

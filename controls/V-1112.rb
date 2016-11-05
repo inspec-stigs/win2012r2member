@@ -54,7 +54,6 @@ Inactive accounts that have been reviewed and deemed to be required must be docu
 # START_DESCRIBE V-1112
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1112

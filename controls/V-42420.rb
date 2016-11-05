@@ -23,7 +23,6 @@ The configuration requirements will be determined by the applicable firewall STI
 # START_DESCRIBE V-42420
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-42420

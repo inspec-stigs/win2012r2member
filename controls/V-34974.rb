@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-34974
   
     describe registry_key({
-      name: 'AlwaysInstallElevated',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Installer',
     }) do

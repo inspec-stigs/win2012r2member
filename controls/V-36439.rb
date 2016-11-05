@@ -40,7 +40,6 @@ This setting may cause issues with some network scanning tools if local administ
 # START_DESCRIBE V-36439
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36439

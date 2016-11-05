@@ -54,7 +54,6 @@ https://www.nsa.gov/ia/mitigation_guidance/security_configuration_guides/operati
 # START_DESCRIBE V-57637
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-57637

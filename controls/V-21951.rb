@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-21951
   
     describe registry_key({
-      name: 'UseMachineId',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\LSA',
     }) do

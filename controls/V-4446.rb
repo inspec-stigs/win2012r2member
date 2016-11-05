@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-4446
   
     describe registry_key({
-      name: 'AuthenticodeEnabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers',
     }) do

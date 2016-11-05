@@ -35,7 +35,6 @@ Standard users will typically be given "Print" permission through the Everyone g
 # START_DESCRIBE V-1135
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1135

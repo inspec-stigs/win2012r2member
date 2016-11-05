@@ -31,7 +31,6 @@ Value: 5 (or less)'
 # START_DESCRIBE V-4442
   
     describe registry_key({
-      name: 'ScreenSaverGracePeriod',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows NT\CurrentVersion\Winlogon',
     }) do

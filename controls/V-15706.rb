@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15706
   
     describe registry_key({
-      name: 'ACSettingIndex',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51',
     }) do

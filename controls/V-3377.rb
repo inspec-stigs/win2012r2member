@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-3377
   
     describe registry_key({
-      name: 'EveryoneIncludesAnonymous',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

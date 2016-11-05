@@ -26,7 +26,6 @@ If the value for "Accounts: Guest account status" is not set to "Disabled", this
 # START_DESCRIBE V-1113
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1113

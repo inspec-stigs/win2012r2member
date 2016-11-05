@@ -46,7 +46,6 @@ Domain-joined systems are automatically configured to synchronize with domain co
 # START_DESCRIBE V-3472
   
     describe registry_key({
-      name: 'Type',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\W32time\Parameters',
     }) do

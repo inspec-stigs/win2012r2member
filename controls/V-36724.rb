@@ -37,7 +37,6 @@ If the permissions for these files are not as restrictive as the ACLs listed, th
 # START_DESCRIBE V-36724
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36724

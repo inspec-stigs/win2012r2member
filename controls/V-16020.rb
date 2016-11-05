@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-16020
   
     describe registry_key({
-      name: 'CEIPEnable',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\SQMClient\Windows',
     }) do

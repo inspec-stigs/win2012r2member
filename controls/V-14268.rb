@@ -29,7 +29,6 @@ Value: 2'
 # START_DESCRIBE V-14268
   
     describe registry_key({
-      name: 'SaveZoneInformation',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Attachments',
     }) do

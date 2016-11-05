@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-40204
   
     describe registry_key({
-      name: 'RedirectOnlyDefaultClientPrinter',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

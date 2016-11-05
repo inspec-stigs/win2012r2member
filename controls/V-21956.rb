@@ -31,7 +31,6 @@ Value:  3 (or less)'
 # START_DESCRIBE V-21956
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-21956

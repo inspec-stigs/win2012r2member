@@ -23,7 +23,6 @@ Determine if virtual guest operating systems have been registered in a vulnerabi
 # START_DESCRIBE V-40193
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40193

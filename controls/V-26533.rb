@@ -29,7 +29,6 @@ Account Management -> Other Account Management Events - Success'
 # START_DESCRIBE V-26533
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26533

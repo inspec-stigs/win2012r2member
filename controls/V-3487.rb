@@ -158,7 +158,6 @@ Workstation - Automatic'
 # START_DESCRIBE V-3487
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-3487

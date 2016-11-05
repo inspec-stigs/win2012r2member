@@ -38,7 +38,6 @@ Value: 0'
 # START_DESCRIBE V-1145
   
     describe registry_key({
-      name: 'AutoAdminLogon',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows NT\CurrentVersion\Winlogon',
     }) do

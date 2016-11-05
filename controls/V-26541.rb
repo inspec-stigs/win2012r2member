@@ -29,7 +29,6 @@ Logon/Logoff -> Logon - Success'
 # START_DESCRIBE V-26541
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26541

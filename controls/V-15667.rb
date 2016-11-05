@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-15667
   
     describe registry_key({
-      name: 'NC_AllowNetBridge_NLA',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Network Connections',
     }) do

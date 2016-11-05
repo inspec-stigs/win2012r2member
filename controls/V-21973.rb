@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-21973
   
     describe registry_key({
-      name: 'NoAutoplayfornonVolume',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Explorer',
     }) do

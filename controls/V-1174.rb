@@ -29,7 +29,6 @@ Value:  0x0000000f (15) (or less)'
 # START_DESCRIBE V-1174
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1174

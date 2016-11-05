@@ -27,7 +27,6 @@ Some hardware vendors create a small FAT partition to store troubleshooting and 
 # START_DESCRIBE V-1081
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1081

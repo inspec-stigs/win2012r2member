@@ -31,7 +31,6 @@ If configuring this on servers causes issues such as terminating users remote se
 # START_DESCRIBE V-1157
   
     describe registry_key({
-      name: 'SCRemoveOption',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows NT\CurrentVersion\Winlogon',
     }) do

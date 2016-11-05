@@ -29,7 +29,6 @@ Value: 5'
 # START_DESCRIBE V-1153
   
     describe registry_key({
-      name: 'LmCompatibilityLevel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

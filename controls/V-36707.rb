@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-36707
   
     describe registry_key({
-      name: 'EnableSmartScreen',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\System',
     }) do

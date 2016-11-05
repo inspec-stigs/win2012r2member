@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15682
   
     describe registry_key({
-      name: 'DisableEnclosureDownload',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Internet Explorer\Feeds',
     }) do

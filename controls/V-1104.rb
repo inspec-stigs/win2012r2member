@@ -26,7 +26,6 @@ If the value for the "Maximum password age" is greater than "60" days, this is a
 # START_DESCRIBE V-1104
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1104

@@ -34,7 +34,6 @@ If the NTFS permissions have not been reconfigured to restrict permissions to th
 # START_DESCRIBE V-3245
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-3245

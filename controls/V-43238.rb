@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-43238
   
     describe registry_key({
-      name: 'NoLockScreenSlideshow',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows\Personalization',
     }) do

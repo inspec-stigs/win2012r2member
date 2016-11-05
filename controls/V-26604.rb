@@ -27,7 +27,6 @@ Peer Networking Identity Manager (p2pimsvc)'
 # START_DESCRIBE V-26604
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26604

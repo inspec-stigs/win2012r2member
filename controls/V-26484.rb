@@ -36,7 +36,6 @@ If any accounts or groups are defined for the "Deny log on as a service" user ri
 # START_DESCRIBE V-26484
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26484

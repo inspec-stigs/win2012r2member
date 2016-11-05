@@ -38,7 +38,6 @@ If the FTP session indicates access to areas of the operating system such as Pro
 # START_DESCRIBE V-1121
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1121

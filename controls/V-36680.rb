@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-36680
   
     describe registry_key({
-      name: 'NoUseStoreOpenWith',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows\Explorer',
     }) do

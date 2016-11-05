@@ -26,7 +26,6 @@ If the value for the "Minimum password length," is less than "14" characters, th
 # START_DESCRIBE V-6836
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-6836

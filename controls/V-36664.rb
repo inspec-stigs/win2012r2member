@@ -25,7 +25,6 @@ If access is restricted by way of hypervisor configuration settings on virtual s
 # START_DESCRIBE V-36664
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36664

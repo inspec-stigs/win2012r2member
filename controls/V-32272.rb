@@ -45,7 +45,6 @@ The thumbprint referenced applies to NIPRNet, see PKE documentation for other ne
 # START_DESCRIBE V-32272
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-32272

@@ -29,7 +29,6 @@ Detailed Tracking -> Process Creation - Success'
 # START_DESCRIBE V-26539
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26539

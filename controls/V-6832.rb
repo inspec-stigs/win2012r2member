@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-6832
   
     describe registry_key({
-      name: 'RequireSecuritySignature',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanmanWorkstation\Parameters',
     }) do

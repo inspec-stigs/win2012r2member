@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-43245
   
     describe registry_key({
-      name: 'DisableAutomaticRestartSignOn',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

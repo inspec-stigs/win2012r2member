@@ -29,7 +29,6 @@ Value: 0x000dbba0 (900000) or less but not 0'
 # START_DESCRIBE V-3458
   
     describe registry_key({
-      name: 'MaxIdleTime',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

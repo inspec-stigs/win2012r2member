@@ -32,7 +32,6 @@ If the site has an Auditors group that further limits this privilege this would 
 # START_DESCRIBE V-26496
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26496

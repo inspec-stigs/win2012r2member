@@ -26,7 +26,6 @@ If the value for "Enforce password history" is less than "24" passwords remember
 # START_DESCRIBE V-1107
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1107

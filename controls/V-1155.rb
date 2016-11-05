@@ -52,7 +52,6 @@ Microsoft Security Advisory Patch 2871997 adds the new security groups to Window
 # START_DESCRIBE V-1155
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1155

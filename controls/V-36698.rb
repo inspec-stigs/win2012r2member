@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-36698
   
     describe registry_key({
-      name: 'Enabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Biometrics',
     }) do

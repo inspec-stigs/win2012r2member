@@ -29,7 +29,6 @@ Value: Enabled'
 # START_DESCRIBE V-21961
   
     describe registry_key({
-      name: 'Force_Tunneling',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\TCPIP\v6Transition',
     }) do

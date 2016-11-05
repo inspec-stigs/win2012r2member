@@ -33,7 +33,6 @@ Value:  0'
 # START_DESCRIBE V-43239
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-43239

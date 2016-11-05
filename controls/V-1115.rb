@@ -26,7 +26,6 @@ If the value for "Accounts: Rename administrator account" is not set to a value 
 # START_DESCRIBE V-1115
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1115

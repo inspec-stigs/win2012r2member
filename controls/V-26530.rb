@@ -29,7 +29,6 @@ Account Logon -> Credential Validation - Failure'
 # START_DESCRIBE V-26530
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26530

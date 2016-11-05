@@ -29,7 +29,6 @@ Value: 3'
 # START_DESCRIBE V-14270
   
     describe registry_key({
-      name: 'ScanWithAntiVirus',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Attachments',
     }) do

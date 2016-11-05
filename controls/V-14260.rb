@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-14260
   
     describe registry_key({
-      name: 'DisableWebPnPDownload',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Printers',
     }) do

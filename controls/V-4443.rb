@@ -55,7 +55,6 @@ Legitimate applications may add entries to this registry value. If an applicatio
 # START_DESCRIBE V-4443
   
     describe registry_key({
-      name: 'Machine',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths',
     }) do

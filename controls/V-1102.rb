@@ -26,7 +26,6 @@ If any accounts or groups (to include administrators), are granted the "Act as p
 # START_DESCRIBE V-1102
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1102

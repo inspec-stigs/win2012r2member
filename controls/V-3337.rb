@@ -26,7 +26,6 @@ If the value for "Network access: Allow anonymous SID/Name translation" is not s
 # START_DESCRIBE V-3337
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-3337

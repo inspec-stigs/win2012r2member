@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-36712
   
     describe registry_key({
-      name: 'AllowBasic',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\WinRM\Client',
     }) do

@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-15701
   
     describe registry_key({
-      name: 'DisableSystemRestore',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\DeviceInstall\Settings',
     }) do

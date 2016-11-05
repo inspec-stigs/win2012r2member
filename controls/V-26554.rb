@@ -29,7 +29,6 @@ System -> Security State Change - Failure'
 # START_DESCRIBE V-26554
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26554

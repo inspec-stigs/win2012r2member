@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-3481
   
     describe registry_key({
-      name: 'PreventCodecDownload',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Policies\Microsoft\WindowsMediaPlayer',
     }) do

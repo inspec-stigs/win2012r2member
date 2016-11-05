@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-1162
   
     describe registry_key({
-      name: 'EnableSecuritySignature',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanManServer\Parameters',
     }) do

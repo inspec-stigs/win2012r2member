@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-14241
   
     describe registry_key({
-      name: 'PromptOnSecureDesktop',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

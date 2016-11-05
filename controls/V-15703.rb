@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15703
   
     describe registry_key({
-      name: 'DontPromptForWindowsUpdate',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\DriverSearching',
     }) do

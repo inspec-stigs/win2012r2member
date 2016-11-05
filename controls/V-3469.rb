@@ -31,7 +31,6 @@ Value: 0'
 # START_DESCRIBE V-3469
   
     describe registry_key({
-      name: 'DisableBkGndGroupPolicy',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\system',
     }) do

@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-1173
   
     describe registry_key({
-      name: 'ProtectionMode',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Session Manager',
     }) do

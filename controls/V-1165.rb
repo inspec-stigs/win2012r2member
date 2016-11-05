@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-1165
   
     describe registry_key({
-      name: 'DisablePasswordChange',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Netlogon\Parameters',
     }) do

@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-21960
   
     describe registry_key({
-      name: 'NC_StdDomainUserSetLocation',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Network Connections',
     }) do

@@ -24,7 +24,6 @@ If the Windows Error Reporting Service does not have a Status of "Running" and a
 # START_DESCRIBE V-56511
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-56511

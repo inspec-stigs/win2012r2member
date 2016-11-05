@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-16005
   
     describe registry_key({
-      name: 'NoDisconnect',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Explorer',
     }) do

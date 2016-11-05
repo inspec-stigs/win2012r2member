@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-15684
   
     describe registry_key({
-      name: 'SafeForScripting',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Installer',
     }) do

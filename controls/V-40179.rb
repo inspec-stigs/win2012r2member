@@ -81,7 +81,6 @@ Successfully processed 1 files; Failed processing 0 files'
 # START_DESCRIBE V-40179
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40179

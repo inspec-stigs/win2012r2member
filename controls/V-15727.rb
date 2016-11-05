@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15727
   
     describe registry_key({
-      name: 'NoInPlaceSharing',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Explorer',
     }) do

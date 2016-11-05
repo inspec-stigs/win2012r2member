@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-4447
   
     describe registry_key({
-      name: 'fEncryptRPCTraffic',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

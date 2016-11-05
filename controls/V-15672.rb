@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15672
   
     describe registry_key({
-      name: 'MicrosoftEventVwrDisableLinks',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\EventViewer',
     }) do

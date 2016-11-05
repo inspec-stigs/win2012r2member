@@ -29,7 +29,6 @@ Policy Change -> Authentication Policy Change - Success'
 # START_DESCRIBE V-26548
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26548

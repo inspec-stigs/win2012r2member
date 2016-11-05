@@ -29,7 +29,6 @@ Value: 0x20080000 (537395200)'
 # START_DESCRIBE V-3382
   
     describe registry_key({
-      name: 'NTLMMinClientSec',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa\MSV1_0',
     }) do

@@ -29,7 +29,6 @@ System -> System Integrity - Success'
 # START_DESCRIBE V-26557
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26557

@@ -34,7 +34,6 @@ Systems that have the Hyper-V role will also have "Virtual Machines" given this 
 # START_DESCRIBE V-26482
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26482

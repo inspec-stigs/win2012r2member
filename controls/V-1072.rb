@@ -22,7 +22,6 @@ If shared accounts exist, this is a finding.'
 # START_DESCRIBE V-1072
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1072

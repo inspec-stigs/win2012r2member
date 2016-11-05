@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15686
   
     describe registry_key({
-      name: 'DisableLUAPatching',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Installer',
     }) do

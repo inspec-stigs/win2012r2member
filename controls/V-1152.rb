@@ -39,7 +39,6 @@ LOCAL SERVICE - Read'
 # START_DESCRIBE V-1152
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1152

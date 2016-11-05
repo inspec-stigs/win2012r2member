@@ -31,7 +31,6 @@ Value: 3'
 # START_DESCRIBE V-14232
   
     describe registry_key({
-      name: 'NoDefaultExempt',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\IPSEC',
     }) do

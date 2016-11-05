@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-43240
   
     describe registry_key({
-      name: 'DontDisplayNetworkSelectionUI',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows\System',
     }) do

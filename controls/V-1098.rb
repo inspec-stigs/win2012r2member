@@ -26,7 +26,6 @@ If the "Reset account lockout counter after" value is less than "60" minutes, th
 # START_DESCRIBE V-1098
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1098

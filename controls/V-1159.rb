@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-1159
   
     describe registry_key({
-      name: 'SecurityLevel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows NT\CurrentVersion\Setup\RecoveryConsole',
     }) do

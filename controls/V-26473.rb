@@ -38,7 +38,6 @@ Organizations may grant this to other groups, such as more restrictive groups wi
 # START_DESCRIBE V-26473
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26473

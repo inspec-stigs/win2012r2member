@@ -29,7 +29,6 @@ Value: 2'
 # START_DESCRIBE V-36677
   
     describe registry_key({
-      name: 'UseWindowsUpdate',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Servicing',
     }) do

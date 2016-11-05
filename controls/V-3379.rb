@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-3379
   
     describe registry_key({
-      name: 'NoLMHash',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

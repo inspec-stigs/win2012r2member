@@ -26,7 +26,6 @@ If the value for "Store password using reversible encryption" is not set to "Dis
 # START_DESCRIBE V-2372
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-2372

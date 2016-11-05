@@ -27,7 +27,6 @@ If a host-based Intrusion Detection System is not installed on the system, this 
 # START_DESCRIBE V-3289
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-3289

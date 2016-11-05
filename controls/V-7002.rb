@@ -37,7 +37,6 @@ Some built-in or application-generated accounts (e.g., Guest, IWAM_, IUSR, etc.)
 # START_DESCRIBE V-7002
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-7002

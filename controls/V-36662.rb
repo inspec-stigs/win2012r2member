@@ -32,7 +32,6 @@ If any system administrators with knowledge of application account passwords hav
 # START_DESCRIBE V-36662
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36662

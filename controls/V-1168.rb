@@ -23,7 +23,6 @@ Any accounts that are members of the Backup Operators group, including applicati
 # START_DESCRIBE V-1168
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1168

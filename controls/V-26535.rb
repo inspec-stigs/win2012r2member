@@ -29,7 +29,6 @@ Account Management -> Security Group Management - Success'
 # START_DESCRIBE V-26535
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26535

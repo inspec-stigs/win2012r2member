@@ -26,7 +26,6 @@ If the "Account lockout threshold" is "0" or more than "3" attempts, this is a f
 # START_DESCRIBE V-1097
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1097

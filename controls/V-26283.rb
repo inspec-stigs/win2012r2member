@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-26283
   
     describe registry_key({
-      name: 'RestrictAnonymousSAM',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

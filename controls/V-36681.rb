@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-36681
   
     describe registry_key({
-      name: 'BlockUserInputMethodsForSignIn',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Control Panel\International',
     }) do

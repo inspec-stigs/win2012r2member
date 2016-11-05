@@ -23,7 +23,6 @@ If McAfee VirusScan Enterprise 8.8 Patch 3 or later is not installed on the syst
 # START_DESCRIBE V-1074
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1074

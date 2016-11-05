@@ -34,7 +34,6 @@ Window Manager\Window Manager Group'
 # START_DESCRIBE V-26491
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26491

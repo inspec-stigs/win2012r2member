@@ -31,7 +31,6 @@ Value: 1'
 # START_DESCRIBE V-3480
   
     describe registry_key({
-      name: 'DisableAutoupdate',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\WindowsMediaPlayer',
     }) do

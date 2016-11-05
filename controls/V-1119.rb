@@ -29,7 +29,6 @@ If the drop-down list box "Default operating system:" shows any operating system
 # START_DESCRIBE V-1119
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1119

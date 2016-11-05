@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-1136
   
     describe registry_key({
-      name: 'EnableForcedLogoff',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanManServer\Parameters',
     }) do

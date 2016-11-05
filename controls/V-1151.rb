@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-1151
   
     describe registry_key({
-      name: 'AddPrinterDrivers',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers',
     }) do

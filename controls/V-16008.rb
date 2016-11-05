@@ -33,7 +33,6 @@ Value: 0'
 # START_DESCRIBE V-16008
   
     describe registry_key({
-      name: 'ValidateAdminCodeSignatures',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

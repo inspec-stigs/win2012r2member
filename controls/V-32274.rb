@@ -44,7 +44,6 @@ If the value for the "Thumbprint" field is not
 # START_DESCRIBE V-32274
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-32274

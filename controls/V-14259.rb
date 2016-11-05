@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-14259
   
     describe registry_key({
-      name: 'DisableHTTPPrinting',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Printers',
     }) do

@@ -26,7 +26,6 @@ If any accounts or groups are granted the "Modify an object label" user right, t
 # START_DESCRIBE V-26497
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26497

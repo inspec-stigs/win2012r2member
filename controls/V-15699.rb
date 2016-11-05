@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15699
   
     describe registry_key({
-      name: 'DisableWcnUi',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\WCN\UI',
     }) do

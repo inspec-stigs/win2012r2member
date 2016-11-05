@@ -29,7 +29,6 @@ System -> Security System Extension - Failure'
 # START_DESCRIBE V-26556
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26556

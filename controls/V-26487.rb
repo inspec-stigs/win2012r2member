@@ -26,7 +26,6 @@ If any accounts or groups are granted the "Enable computer and user accounts to 
 # START_DESCRIBE V-26487
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26487

@@ -31,7 +31,6 @@ Value: 0x0000000a (10)'
 # START_DESCRIBE V-36772
   
     describe registry_key({
-      name: 'MaxDevicePasswordFailedAttempts',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

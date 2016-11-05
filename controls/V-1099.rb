@@ -26,7 +26,6 @@ If the "Account lockout duration" is not set to "0", requiring an administrator 
 # START_DESCRIBE V-1099
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1099

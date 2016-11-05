@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-36700
   
     describe registry_key({
-      name: 'DisablePasswordReveal',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\CredUI',
     }) do

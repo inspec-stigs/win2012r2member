@@ -29,7 +29,6 @@ Policy Change -> Audit Policy Change - Failure'
 # START_DESCRIBE V-26547
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26547

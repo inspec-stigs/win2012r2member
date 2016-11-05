@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-6831
   
     describe registry_key({
-      name: 'RequireSignOrSeal',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Netlogon\Parameters',
     }) do

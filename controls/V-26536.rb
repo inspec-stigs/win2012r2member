@@ -29,7 +29,6 @@ Account Management -> Security Group Management - Failure'
 # START_DESCRIBE V-26536
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26536

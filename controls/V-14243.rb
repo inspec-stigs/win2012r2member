@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-14243
   
     describe registry_key({
-      name: 'EnumerateAdministrators',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\CredUI',
     }) do

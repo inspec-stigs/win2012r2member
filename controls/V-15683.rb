@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-15683
   
     describe registry_key({
-      name: 'PreXPSP2ShellProtocolBehavior',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\Explorer',
     }) do

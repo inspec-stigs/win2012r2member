@@ -25,7 +25,6 @@ If an alternate method is used to configure a system (e.g., manually using the D
 # START_DESCRIBE V-1128
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1128

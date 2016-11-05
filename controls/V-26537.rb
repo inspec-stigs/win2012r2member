@@ -29,7 +29,6 @@ Account Management -> User Account Management - Success'
 # START_DESCRIBE V-26537
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26537

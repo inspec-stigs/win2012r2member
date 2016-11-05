@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-36696
   
     describe registry_key({
-      name: 'DisablePcaUI',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\AppCompat',
     }) do

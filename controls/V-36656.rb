@@ -34,7 +34,6 @@ Applications requiring continuous, real-time screen display (e.g., network manag
 # START_DESCRIBE V-36656
   
     describe registry_key({
-      name: 'ScreenSaveActive',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Policies\Microsoft\Windows\Control Panel\Desktop',
     }) do

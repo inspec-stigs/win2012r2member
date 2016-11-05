@@ -38,7 +38,6 @@ Value: 4 (Prompt for consent)
 # START_DESCRIBE V-14235
   
     describe registry_key({
-      name: 'ConsentPromptBehaviorAdmin',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

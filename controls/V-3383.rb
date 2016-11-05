@@ -31,7 +31,6 @@ Warning: Clients with this setting enabled will not be able to communicate via d
 # START_DESCRIBE V-3383
   
     describe registry_key({
-      name: 'Enabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa\FIPSAlgorithmPolicy',
     }) do

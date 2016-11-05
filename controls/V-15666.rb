@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15666
   
     describe registry_key({
-      name: 'Disabled',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Peernet',
     }) do

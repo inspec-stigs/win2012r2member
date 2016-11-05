@@ -31,7 +31,6 @@ Value: 300000 (or less)'
 # START_DESCRIBE V-4113
   
     describe registry_key({
-      name: 'KeepAliveTime',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Tcpip\Parameters',
     }) do

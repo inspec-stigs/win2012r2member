@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-21971
   
     describe registry_key({
-      name: 'DisableInventory',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\AppCompat',
     }) do

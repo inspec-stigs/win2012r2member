@@ -29,7 +29,6 @@ Value: 0x000000ff (255)'
 # START_DESCRIBE V-2374
   
     describe registry_key({
-      name: 'NoDriveTypeAutoRun',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer',
     }) do

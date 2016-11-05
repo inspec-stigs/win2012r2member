@@ -26,7 +26,6 @@ If any accounts or groups are granted the "Access Credential Manager as a truste
 # START_DESCRIBE V-26469
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26469

@@ -29,7 +29,6 @@ Object Access -> Central Policy Staging - Success'
 # START_DESCRIBE V-40202
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40202

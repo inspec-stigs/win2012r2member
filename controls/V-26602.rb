@@ -33,7 +33,6 @@ If the "Microsoft FTP Service" (Service name: FTPSVC) is installed and not disab
 # START_DESCRIBE V-26602
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26602

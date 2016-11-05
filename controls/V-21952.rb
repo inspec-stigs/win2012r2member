@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21952
   
     describe registry_key({
-      name: 'allownullsessionfallback',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\LSA\MSV1_0',
     }) do

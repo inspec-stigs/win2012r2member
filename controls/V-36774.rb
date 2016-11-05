@@ -29,7 +29,6 @@ Value: scrnsave.scr'
 # START_DESCRIBE V-36774
   
     describe registry_key({
-      name: 'SCRNSAVE.EXE',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Policies\Microsoft\Windows\Control Panel\Desktop',
     }) do

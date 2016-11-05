@@ -32,7 +32,6 @@ Value: 0'
 # START_DESCRIBE V-15697
   
     describe registry_key({
-      name: 'AllowRspndrOndomain',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\LLTD',
     }) do

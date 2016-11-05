@@ -31,7 +31,6 @@ Legitimate applications may add entries to this registry value. If an applicatio
 # START_DESCRIBE V-3338
   
     describe registry_key({
-      name: 'NullSessionPipes',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanManServer\Parameters',
     }) do

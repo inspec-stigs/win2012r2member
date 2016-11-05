@@ -26,7 +26,6 @@ If the value for "Accounts: Rename guest account" is not set to a value other th
 # START_DESCRIBE V-1114
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1114

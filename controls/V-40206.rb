@@ -25,7 +25,6 @@ If the Startup Type for Smart Card Removal Policy is not set to Automatic, this 
 # START_DESCRIBE V-40206
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40206

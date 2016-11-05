@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-21963
   
     describe registry_key({
-      name: 'DoNotInstallCompatibleDriverFromWindowsUpdate',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Printers',
     }) do

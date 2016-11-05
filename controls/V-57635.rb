@@ -29,7 +29,6 @@ Policy Change -> Authorization Policy Change - Failure'
 # START_DESCRIBE V-57635
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-57635

@@ -31,7 +31,6 @@ Value: 0x00030000 (196608) (or greater)'
 # START_DESCRIBE V-26580
   
     describe registry_key({
-      name: 'MaxSize',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows\EventLog\Security',
     }) do

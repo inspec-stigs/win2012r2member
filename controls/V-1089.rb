@@ -62,7 +62,6 @@ Deviations are not permitted except as authorized by the Deputy Assistant Secret
 # START_DESCRIBE V-1089
   
     describe registry_key({
-      name: 'LegalNoticeText',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21950
   
     describe registry_key({
-      name: 'SmbServerNameHardeningLevel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LanmanServer\Parameters',
     }) do

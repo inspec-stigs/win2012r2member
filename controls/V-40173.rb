@@ -21,7 +21,6 @@ control 'V-40173' do
 # START_DESCRIBE V-40173
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-40173

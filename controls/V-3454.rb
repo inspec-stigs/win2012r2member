@@ -29,7 +29,6 @@ Value: 3'
 # START_DESCRIBE V-3454
   
     describe registry_key({
-      name: 'MinEncryptionLevel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows NT\Terminal Services',
     }) do

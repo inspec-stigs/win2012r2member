@@ -36,7 +36,6 @@ Systems dedicated to managing Active Directory (AD admin platforms, see V-36436 
 # START_DESCRIBE V-26470
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-26470

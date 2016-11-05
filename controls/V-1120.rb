@@ -37,7 +37,6 @@ If the command response indicates that an anonymous FTP login was permitted, thi
 # START_DESCRIBE V-1120
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1120

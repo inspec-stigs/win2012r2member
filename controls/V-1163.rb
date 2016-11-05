@@ -31,7 +31,6 @@ If the value for "Domain Member: Digitally encrypt or sign secure channel data (
 # START_DESCRIBE V-1163
   
     describe registry_key({
-      name: 'SealSecureChannel',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Netlogon\Parameters',
     }) do

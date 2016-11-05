@@ -49,7 +49,6 @@ Value:  0x00000002 (2)'
 # START_DESCRIBE V-36710
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36710

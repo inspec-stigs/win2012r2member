@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-4448
   
     describe registry_key({
-      name: 'NoGPOListChanges',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}',
     }) do

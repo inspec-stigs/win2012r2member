@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-14254
   
     describe registry_key({
-      name: 'EnableAuthEpResolution',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Policies\Microsoft\Windows NT\Rpc',
     }) do

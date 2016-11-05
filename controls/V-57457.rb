@@ -29,7 +29,6 @@ Value:  " "       (A single BLANK character to store the data on the system or t
 # START_DESCRIBE V-57457
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-57457

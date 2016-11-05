@@ -29,7 +29,6 @@ Value: 30 (or less, but not 0)'
 # START_DESCRIBE V-3373
   
     describe registry_key({
-      name: 'MaximumPasswordAge',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\Netlogon\Parameters',
     }) do

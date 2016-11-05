@@ -37,7 +37,6 @@ The built-in Administrator account or other required administrative accounts wou
 # START_DESCRIBE V-1127
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1127

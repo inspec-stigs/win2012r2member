@@ -26,7 +26,6 @@ If the value for the "Minimum password age" is set to "0" days ("Password can be
 # START_DESCRIBE V-1105
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-1105

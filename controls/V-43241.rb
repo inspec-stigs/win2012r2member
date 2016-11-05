@@ -33,7 +33,6 @@ Value: 1'
 # START_DESCRIBE V-43241
   
     describe registry_key({
-      name: 'MSAOptional',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies',
     }) do

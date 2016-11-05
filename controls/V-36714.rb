@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-36714
   
     describe registry_key({
-      name: 'AllowDigest',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\WinRM\Client',
     }) do

@@ -37,7 +37,6 @@ Automated tools may only search for the titles defined above. If a site-defined 
 # START_DESCRIBE V-26359
   
     describe registry_key({
-      name: 'LegalNoticeCaption',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

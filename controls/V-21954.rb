@@ -55,7 +55,6 @@ If the both of 2 right most characters are "0", this is not a finding.'
 # START_DESCRIBE V-21954
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-21954

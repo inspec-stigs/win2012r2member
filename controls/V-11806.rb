@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-11806
   
     describe registry_key({
-      name: 'DontDisplayLastUserName',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Microsoft\Windows\CurrentVersion\Policies\System',
     }) do

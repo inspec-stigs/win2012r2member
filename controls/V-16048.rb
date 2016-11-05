@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-16048
   
     describe registry_key({
-      name: 'NoExplicitFeedback',
       hive: 'HKEY_CURRENT_USER',
       key:  'Software\Policies\Microsoft\Assistance\Client\1.0',
     }) do

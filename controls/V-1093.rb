@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-1093
   
     describe registry_key({
-      name: 'RestrictAnonymous',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Lsa',
     }) do

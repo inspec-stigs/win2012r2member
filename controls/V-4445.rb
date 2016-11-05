@@ -29,7 +29,6 @@ Value: (Blank)'
 # START_DESCRIBE V-4445
   
     describe registry_key({
-      name: 'Optional',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Control\Session Manager\Subsystems',
     }) do

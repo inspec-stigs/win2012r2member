@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-15702
   
     describe registry_key({
-      name: 'DisableSendGenericDriverNotFoundToWER',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\DeviceInstall\Settings',
     }) do

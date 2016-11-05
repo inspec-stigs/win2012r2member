@@ -23,7 +23,6 @@ If users with administrative privileges do not have separate accounts for admini
 # START_DESCRIBE V-36659
       describe file('') do
       it "is a pending example"
-      # it { should match // }
     end
 
 # STOP_DESCRIBE V-36659

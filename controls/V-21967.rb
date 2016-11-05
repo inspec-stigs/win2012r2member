@@ -29,7 +29,6 @@ Value: 0'
 # START_DESCRIBE V-21967
   
     describe registry_key({
-      name: 'DisableQueryRemoteServer',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'Software\Policies\Microsoft\Windows\ScriptedDiagnosticsProvider\Policy',
     }) do

@@ -29,7 +29,6 @@ Value: 1'
 # START_DESCRIBE V-3381
   
     describe registry_key({
-      name: 'LDAPClientIntegrity',
       hive: 'HKEY_LOCAL_MACHINE',
       key:  'System\CurrentControlSet\Services\LDAP',
     }) do
